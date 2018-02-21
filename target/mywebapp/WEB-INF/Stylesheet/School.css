@@ -1,0 +1,185 @@
+body
+{
+    font-family: Arial, sans-serif;
+}
+
+.cap
+{
+    width: 100%;
+    background-color:  yellow;
+    color: red;
+    border-bottom: 2px solid black;
+}
+.cod
+{
+    margin: 5px;
+    padding-top: 10px;
+
+}
+
+.shoes
+{
+    border-top: 2px solid black;
+    width: 100%;
+    height:100px;
+    background-color: green;
+    color:  red;
+}
+
+.new
+{
+    margin: 5px;
+    padding: 10px;
+}
+
+.words
+{
+    font-style: oblique;
+    color: red;
+}
+
+.article
+{
+    margin: 10px 0 0 0;
+}
+
+.divart
+{
+    margin-top: 20px;
+    height: 100%;
+    margin: 10px 0 0 0;
+    text-align: center;
+    height: 910px;
+}
+.side
+{
+    height: 500px;
+    width: 250px;
+    background-color: orange;
+    border: 2px solid black;
+    float: left;
+    margin: 100px 0 0 0;
+}
+
+.side>aside>ul
+{
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+}
+
+.side2
+{
+    height: 500px;
+    width: 250px;
+    background-color: blue;
+    border: 2px solid black;
+    float: right;
+    margin: 100px 0 0 0;
+}
+
+.side2>aside>ul
+{
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+
+.fclass
+{
+
+    padding: 10px;
+    width: 100%;
+    display: block;
+
+}
+
+.fclass  select
+{
+
+    border-radius: 10px;
+    background: transparent;
+    width: 250px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+    text-align: center;
+    background-color: #C0C0C0;
+    cursor: pointer;
+}
+
+.fclass select:hover
+{
+    border-color: #00FF00;
+
+}
+
+select:hover
+{
+    color: #000000;
+    border-color: #0000FF;
+}
+
+
+select {
+    position: relative;
+    color: red;
+    width: 150px;
+    float: left;
+    margin-left: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 34px;
+    text-align: center;
+    background-color: #C0C0C0;
+    cursor: pointer;
+}
+
+.innerDiv
+{
+    color: blue;
+}
+
+.fclass>select
+{
+    font-size: 14px;
+    display: block;
+    margin: 10.5px;
+
+}
+
+.spanClass
+{
+
+}
+
+
+.DataBase> ul> li>a
+{
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.DataBase > ul > li
+{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+
+.DataBase a:hover
+{
+    color: red;
+}
+
+
+
+
+
+
+
+
+

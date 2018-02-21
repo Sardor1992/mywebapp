@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>index.jsp</servlet-name>
+        <jsp-file>/</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>index.jsp</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>com.sardor.project.HelloServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/servlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
